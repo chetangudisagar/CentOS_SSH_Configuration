@@ -1,6 +1,6 @@
 # CentOS_SSH_Configuration
 
-This repository contains a CentOS 7 SSH Configuration script. 
+This repository contains a CentOS 7 SSH Configuration script - `configure.sh`. 
 
 The script has comments explaining what each command is doing.
 
