@@ -20,12 +20,12 @@ It first prompts users to change the port in SSHD config file, allow it in the S
   **Note:** you could use `dosunix` too but it is not available in the Minimal installation of CentOS 7.
   Reference [here](https://support.microfocus.com/kb/doc.php?id=7014821).
 
-2.  Make it executable using `chmod` command -
+3.  Make it executable using `chmod` command -
   ```
   chmod +x configure_formatted.sh
   ```
 
-3.  Run the script -
+4.  Run the script -
   ```
   sudo ./configure_formatted.sh
   ```
