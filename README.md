@@ -1,10 +1,10 @@
 # CentOS_SSH_Configuration
 
-This repository contains a CentOS SSH Configuration script. 
+This repository contains a CentOS 7 SSH Configuration script. 
 
-The script has comments added explaining what each command is doing.
+The script has comments explaining what each command is doing.
 
-It first prompts users to change the port in SSHD config file, allow it in SELinux Policy, followed by restarting the SSHD service and allowing incoming TCP connections through firewall.
+It first prompts users to change the port in SSHD config file, allow it in the SELinux Policy, followed by restarting the SSHD service and allowing incoming TCP connections through firewall.
 
 
 1.  Download using `curl` command -
@@ -25,7 +25,7 @@ It first prompts users to change the port in SSHD config file, allow it in SELin
   chmod +x configure_formatted.sh
   ```
 
-3.  Run the scipt -
+3.  Run the script -
   ```
   sudo ./configure_formatted.sh
   ```
